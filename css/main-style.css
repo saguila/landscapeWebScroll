@@ -1,0 +1,71 @@
+html {
+    background-color: #4f584f;
+    background-position: center center;
+    /*background:url(../images/main-image.jpg) no-repeat center center fixed;/*/
+    background-image: url(../images/main-image.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    text-shadow: 1px 1px #4f584f;
+    font-style: oblique;
+}
+
+video#mainVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+div#socialBar {
+    margin: auto 0;
+    max-width: 55px;
+    position: fixed;
+}
+
+div#socialBar img {
+    max-width: 55px;
+    max-height: 100%;
+}
+
+div#socialBar ul {
+    padding-left: 0;
+}
+
+div#videoPlay {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+div#readMore {
+    float: right;
+    width: 25px;
+    height: 10%;
+}
+
+div#readMore img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+div#socialBar li {
+    padding-left: 0;
+    list-style-type: none;
+    margin-bottom: 10%;
+}
